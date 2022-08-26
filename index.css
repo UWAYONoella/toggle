@@ -29,11 +29,11 @@ button{
     position: fixed;
 }
 #song{
-    position: fixed;
-  margin-left: 700px; 
-  margin-right: 100px; 
+    /* position: fixed; */
+  /* margin-left: 700px;  */
+  /* margin-right: 100px;  */
    /* margin-top: 100px; */
-    z-index: 2;
+    z-index: 3;
 }
 .righ{
     transform: translatex(-150%); 
