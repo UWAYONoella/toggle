@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(221, 247, 228);
+    color: #ffffff;
+}
+.top{
+    visibility: hidden;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: sans-serif;
+   color: green;
+   cursor: pointer;
+}
+#video{
+    height: 600px; 
+    width: 800px; 
+    margin-left: 200px;
+    z-index: 1;
+    transition:transform 3s ease-in-out;
+}
+.myVideo{
+    transition:transform 3s ease-in-out;
+    transform: translateY(-150%);
+}
+button{
+    position: fixed;
+}
+#song{
+    position: fixed;
+  margin-left: 700px; 
+  margin-right: 100px; 
+   /* margin-top: 100px; */
+    z-index: 2;
+}
+.righ{
+    transform: translatex(-150%); 
+    transition:transform 3s ease-in-out;
+    background-color: rgba(39, 242, 239, 0.4);  
+}
+.down{
+    transform: translatey(-150%); 
+    transition:transform 3s ease-in-out; 
+    background-color: rgba(128, 128, 128,0.4);  
+}
+.up{
+    height: 100%;
+    margin-top: 10px;
+    width: 100%;
+    position: fixed; 
+    background-color: rgba(128, 128, 128,0.4);
+    transition:transform 3s ease-in-out;
+}
+
+.right{
+    height: 100%;
+    margin-top: 20px;
+    width: 100%;
+    position: fixed; 
+    background-color: rgba(115, 253, 250, 0.4);
+    transition:transform 3s ease-in-out;
+
+}
