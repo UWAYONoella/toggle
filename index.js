@@ -35,8 +35,8 @@ butn.addEventListener("click",e=>{
 
 const song=document.getElementById("song");
 song.addEventListener("click",e=>{
-    e.target.innerText="HAPPIEST BIRTHDAY BEST FRIEND YOU ARE SO IMPORTANT let's GOD continue to lead the steps of your legs";
-    e.target.style.backgroundColor="black";
-    e.target.style.color="white";
+    e.target.innerText="song";
+    e.target.style.backgroundColor="yellow";
+    e.target.style.color="red";
     video.classList.toggle("myVideo");
 })
